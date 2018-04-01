@@ -1,5 +1,6 @@
 function countdown(callback) {
-  window.setTimeout(function(){callback}, 2000);
+  window.setTimeout(function(){callback()}, 2000);
 }
 
-countdown();
+
+
